@@ -1,0 +1,84 @@
+
+/* Classes */
+/* .logo-img {} */
+/* .nav-link {} */
+/* .hero-section {} */
+/* .heading-style {} */
+/* .footer-link {} */
+
+/* Unique Indentifiers (id) */
+/* #main-header {} */
+/* #section-one {} */
+/* #section-two {} */
+
+/* CSS HEX */
+/* --driftwood: #a68945;
+--black: #040404;
+--ronchi: #efc75e;
+--onion: #31240f;
+--hippie-green: #59834f;
+--totem-pole: #932906;
+--green-pea: #164b2f;
+--jewel: #0e6444;
+--black-pearl: #041724;
+ */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+   
+  }
+  
+  header {
+    background-color: #a68945;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #efc75e;
+    text-decoration:none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  .product {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  img {
+    width: 500px;
+    height: 500px;
+  }
+  
+  footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
